@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <!-- AJAX jQuery :))))) -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap stuff :) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--CSS files :p -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <form id="box">
+        <h1 class="text-center">Login Page</h1>
+        <div class="form-group text">
+          <label for="exampleInputEmail1">Username</label>
+          <input class="form-control" id="username" placeholder="Enter Username">
+        </div>
+        <div class="form-group text">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter Password">
+          <small id="passwordHelp" class="form-text text-muted">Your password is safe with us!</small>
+        </div>
+        <p id="errormsg"></p>
+        <button id="btn" type="submit" class="btn btn-primary" onclick="login()"><a style="text-decoration: none;color: white;" href="#" id="a">Login</a></button>
+        <a href="./register.html" style="margin: 0 2vw;">Don't have an account? Register with us here!</a>
+    </form>
+
+    <!-- javascript files -->
+    <script src="javascript/index.js"></script>
+</body>
+</html>
