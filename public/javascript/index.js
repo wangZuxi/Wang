@@ -1,3 +1,7 @@
+function changeIcon(){
+    document.getElementById('menuIcon').innerHTML == 'menu' ? document.getElementById('menuIcon').innerHTML = 'close' : document.getElementById('menuIcon').innerHTML = 'menu'
+}
+
 
 function login(){
     $.ajax({
