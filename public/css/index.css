@@ -34,7 +34,10 @@ body{
     margin: 1vw 42vw;
     scale: 0.87;
 }
-input{width: 90vw;}
+input{
+    height: 10vw;
+    width: 90vw;
+}
 .navbar-toggler{
     position: fixed;
     background-color: transparent;
@@ -80,7 +83,6 @@ input{width: 90vw;}
 
 main{
     background-color: aliceblue;
-    margin: 5vw 0;
     padding: 3vw;
     color: red;
 }
