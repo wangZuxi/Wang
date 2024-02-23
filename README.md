@@ -1,0 +1,4 @@
+EDITING PRODUCTS
+
+FILE > PUBLIC > JAVASCRIPT > products.js
+
