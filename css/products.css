@@ -21,6 +21,7 @@ body{
     width: 100vw;
     height: 17vw;
     z-index: 2;
+    filter: drop-shadow(0 1vw 3vw rgba(20, 4, 43, 0.409));
 }
 
 #menu{

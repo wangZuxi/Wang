@@ -18,11 +18,9 @@ class Product {
 }
 
 const advertisements = [
-    // new Product(`Mayfair WC 8116`, ``, ``, `1-1`),
-    // new Product(`Mayfair WC 8126`, ``, ``, `1-2`),
-    // new Product(`Mayfair WC 8116`, ``, ``, `1-3`),
-    // new Product(`Mayfair WC 8126`, ``, ``, `1-4`),
-    // new Product(`Mayfair WC 8116`, ``, ``, `1-5`)
+    new Product(`Mayfair WC 8116`, ``, ``, `1-0`),
+    new Product(`Mayfair WC 8126`, ``, ``, `1-1`),
+    new Product(`Mayfair WC 8116`, ``, ``, `1-2`)
 ]
 
 const toilets = [
@@ -90,6 +88,18 @@ const mirrors = [
 
 function changeIcon(){
     document.getElementById('menuIcon').innerHTML == 'menu' ? document.getElementById('menuIcon').innerHTML = 'close' : document.getElementById('menuIcon').innerHTML = 'menu'
+}
+
+let adsCount = 1;
+function switchup(){
+    adsCount == advertisements.length ? adsCount = 0 : 0;
+    document.getElementById('ads').style.backgroundImage = `url(./images/1-${adsCount}.jpeg)`
+    adsCount += 1;
+}
+setInterval(switchup, 3000)
+
+function viewMoar(){
+    window.location.href = './advertisements.html';
 }
 
 switch(document.querySelector('h1').innerHTML){
