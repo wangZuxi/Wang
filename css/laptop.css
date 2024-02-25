@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-brand{ 
+    margin: -2vw -2vw;
+}
+.navbar-brand>img{
+    width: 17vw;
+    height: 6vw;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 1vw double #373964;
+    padding: 3vw;
+    position: fixed;
+    width: 100vw;
+    height: 9vw;
+    z-index: 2;
+    filter: drop-shadow(0 1vw 3vw rgba(20, 4, 43, 0.409));
+}
+
+#menu{
+    display: none;
+}
+#search{
+    margin: 1vw 36vw;
+    scale: 0.87;
+}
+input{
+    height: 10vw;
+    width: 90vw;
+}
+.navbar-toggler{
+    position: fixed;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-collapse{
+    margin: 5vw -3vw;
+    background-color: #ffffff;
+    color: white;
+}
+#navbarSupportedContent2{
+    color: black;
+    background-color: transparent;
+}
+.nav-link{color: black;}
+.nav-item{
+    margin: 1vw 3.69vw;
+    font-size: 1vw;
+}
+.nav-link:hover{background-color: #e2e6ed;}
+
+#seperation{
+    background-color: aliceblue;
+    height: 1vw;
+}
+
+
+
+#ads{
+    transition: 1s;
+    width: 100vw;
+    height: 50vw;
+    background-image: url(../images/1-0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ads>button{ 
+    margin: 37vw 37vw;
+    width: 26vw;
+    height: 9.6vw;
+    border: 1vw solid;
+    position: absolute;
+    background-color: #cfd5ea57;
+    color: aliceblue;
+    font-size: 3vw;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 3vw;
+    color: red;
+    margin: -33vw auto;
+    width: 88vw;
+    height: 46vw;
+    border-radius: 4vw;
+    opacity: 0.8;
+}
+main>h1{
+    font-size: 3vw;
+    text-align: center;
+    color: black;
+    margin-bottom: -4vw;
+}
+main>p{
+    color: #816f6f;
+    margin: 8vw 0;
+    text-align: center;
+    margin-bottom: -4vw;
+    font-size: 1.69vw;
+}
+main>h2{
+    color: #3e5232;
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+footer{
+    position: absolute;
+    background-color: #08273b;
+    width: 103vw;
+    height: 22vw;
+    margin-top: 29vw;
+    font-size: 1vw;
+    color: white;
+    padding: 3vw 0;
+}
+footer>h1{
+    text-align: center;
+    font-size: 2vw;
+}
+footer>p{
+    text-align: center;
+    font-size: 2vw;
+}
+
+#title{
+    position: absolute;
+    font-size: 2vw;
+}
+#products{
+    list-style: none;
+    margin-top: 19vw;
+    position: absolute;
+}
+#products>li{
+    margin: 4vw 27vw;
+}
+#products>li>div>h2{
+    font-size: 2vw;
+    font-weight: 500;
+}
+#products>li>div>p{
+    font-size: 1.6vw;
+}
+#products>li>img{
+    width: 17vw;
+}
+

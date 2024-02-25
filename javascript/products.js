@@ -96,7 +96,6 @@ function switchup(){
     document.getElementById('ads').style.backgroundImage = `url(./images/1-${adsCount}.jpeg)`
     adsCount += 1;
 }
-setInterval(switchup, 3000)
 
 function viewMoar(){
     window.location.href = './advertisements.html';
@@ -167,4 +166,13 @@ switch(document.querySelector('h1').innerHTML){
             `;
         })
         break;
+
+    default:
+        setInterval(switchup, 3000)
+        break;
+}
+
+
+if(window.innerWidth > 760){
+    document.querySelector('link').href = 'css/laptop.css'
 }
